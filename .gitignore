@@ -1,0 +1,22 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Local logs and editor files
+*.log
+*.local
+.vscode/
+.idea/
+.DS_Store
