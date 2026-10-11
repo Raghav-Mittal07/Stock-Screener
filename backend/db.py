@@ -8,6 +8,7 @@ DB_CONFIG = {
     "database": os.getenv("DB_NAME", "stock_screener"),
     "user": os.getenv("DB_USER", "root"),
     "password": os.environ.get("DB_PASSWORD", ""),
+    "ssl_ca": os.getenv("DB_SSL_CA", None),
 }
 
 
