@@ -6,7 +6,7 @@ from backend.screening import screen_stocks, screen_stocks_by_query
 app = FastAPI(title="Stock Screener API")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173", "https://stock-screener-rouge.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
